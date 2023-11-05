@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(45deg, #39297b, #3019, #39297b, #3019, #39297b);
+    color: #fff;
+}
+
+h1{
+    text-align: center;
+    margin: 100px auto 50px;
+    font-weight: 600;
+}
+
+form{
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+    height: 80px;
+    background-color: #434989;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+}
+
+form input{
+    flex: 1;
+    height: 100%;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    color: #fff;
+    font-size: 20px;
+    padding: 0 30px;
+}
+
+form button{
+    padding: 0 40px;
+    height: 100%;
+    background: #ff3929;
+    color: #fff;
+    font-size: 20px;
+    border: 0;
+    outline: 0;
+    border-bottom-right-radius: 8px;
+    cursor: pointer;
+    border-bottom-right-radius: 8px;
+}
+
+::placeholder{
+    color: #fff;
+    font-size: 20px;   
+}
+
+#show-more-btn{
+    background: #475e40;
+    color: #fff;
+    border-radius: 6px;
+    padding: 10px 20x;
+    margin: 10px auto 100px;
+    cursor: pointer;
+    outline: 0;
+    display: None;
+    font-family: "Lucida Console", "Courier New",-webkit-body;
+}
+
+
+#search-result{
+    width: 80%;
+    margin: 100px auto 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+}
+
+#search-result img {
+    width: 100%;
+    height: 108%;
+    object-fit: cover;
+    border-radius: 13px;
+}
+
+footer{
+    text-align: center;
+    font-size: small;
+    color: black;
+    border-radius: 25px;
+}
+
+footer a{
+    font-size: 20px;
+}
+
+h4{
+    color: #21a50f;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+}
+
+#ico{
+    border-radius: 2px;
+
+}
