@@ -54,7 +54,17 @@ form button{
     border-top-right-radius: 8px;
 }
 
-
+@media only screen and (max-width: 600px) {
+    form {
+        flex-direction: column;
+        height: auto;
+    }
+    form input, form button {
+        width: 100%;
+        padding: 10px;
+        border-radius: 0;
+    }
+}
 
 ::placeholder{
     color: #fff;
