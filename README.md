@@ -1,4 +1,4 @@
-# **Notice:** This demo aint for porduction. it's for showcasing to use Apikeys in effective way.
+# **Notice:** This demo aint for porduction. it's for showcasing the use of Apikeys in effective way.
 
 
 ### Search-Images 
