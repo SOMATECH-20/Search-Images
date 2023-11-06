@@ -55,6 +55,18 @@ form button{
     border-top-right-radius: 8px;
 }
 
+@media (max-width: 600px) {
+  form input {
+    font-size: 16px;
+    padding: 0 20px;
+  }
+
+  form button {
+    font-size: 20px;
+    padding: 0 30px;
+  }
+}
+
 ::placeholder{
     color: #fff;
     font-size: 20px;   
