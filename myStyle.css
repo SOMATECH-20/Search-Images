@@ -20,7 +20,7 @@ form{
     max-width: 600px;
     margin: auto;
     height: 80px;
-    background-color: #434989;
+    /*background-color: #434989;*/
     display: flex;
     align-items: center;
     border-radius: 10px;
@@ -56,13 +56,25 @@ form button{
 
 @media only screen and (max-width: 600px) {
     form {
-        flex-direction: column;
-        height: auto;
+        flex-direction: row;
+        height: 40px;
     }
     form input, form button {
-        width: 100%;
+        width: 50%;
         padding: 10px;
-        border-radius: 0;
+    }
+    form input {
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 0;
+        border-radius: 13px;
+    }
+    form button {
+        font-size: 20px;
+        width: 40%;
+        border-bottom-left-radius: 10;
+        border-bottom-right-radius: 10;
+        border-top-left-radius: 10;
+        border-top-right-radius: 10;
     }
 }
 
