@@ -6,7 +6,7 @@
  }
  
  body{
-     background-image: linear-gradient(45deg, rgba(70, 7, 7, 0.988), rgba(72, 9, 79, 0.795), rgb(56, 9, 9), rgba(50, 50, 50, 0));
+     background-image: linear-gradient(45deg, rgb(4, 3, 1), rgba(2, 8, 8, 0.873));
      color: #fff;
  }
 h1{
