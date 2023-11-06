@@ -17,15 +17,17 @@ h1{
     font-weight: 600;
 }
 
-form{
-    width: 90%;
-    max-width: 600px;
-    margin: auto;
-    height: 80px;
-    background-color: #434989;
-    display: flex;
-    align-items: center;
-    border-radius: 10px;
+@media (max-width: 600px) {
+   form{
+       width: 90%;
+       max-width: 600px;
+       margin: auto;
+       height: 80px;
+       background-color: #434989;
+       display: flex;
+       align-items: center;
+       border-radius: 10px;
+   }
 }
 
 form input{
